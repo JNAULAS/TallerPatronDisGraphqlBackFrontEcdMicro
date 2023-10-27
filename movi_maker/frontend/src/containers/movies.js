@@ -23,9 +23,9 @@ const Movies = () => {
             {data.listMovies.map((movie, index) => {
                 return <SingleMovie
                     key={index}
-                    movieName={movie.name}
-                    movieGenre={movie.genero}
-                    movieYear={movie.year}
+                    name={movie.name}
+                    genero={movie.genero}
+                    year={movie.year}
                 />
             })}
         </div>
